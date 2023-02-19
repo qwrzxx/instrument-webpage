@@ -1,0 +1,33 @@
+.Header {
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-transform: uppercase;
+}
+
+.Header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    position: relative;
+}
+
+.Header a:hover::before {
+    content: "[";
+    position: absolute;
+    top: 0;
+    left: -1em;
+}
+
+.Header a:hover::after {
+    content: "]";
+    position: absolute;
+    top: 0;
+    right: -1em;
+}
