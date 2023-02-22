@@ -1,0 +1,40 @@
+.Hero {
+    color: white;
+    padding: 32px;
+    box-sizing: border-box;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Hero .title {
+    font-size: 7em;
+    margin-bottom: 30px;
+    margin-left: -7px;
+    font-weight: bolder;
+}
+
+.Hero .title span {
+    position: relative;
+}
+
+.Hero .title span svg {
+    position: absolute;
+}
+
+.Hero .body {
+    font-size: 1.35em;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.Hero .buttons {}
+
+.Hero .buttons button {
+    border-radius: 12px;
+    border: 0;
+    height: 30px;
+    padding: 0 20px;
+    font-family: Whyte Medium, "system-ui", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
