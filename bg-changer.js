@@ -13,10 +13,13 @@ function isScrolledIntoView(el) {
 
 document.addEventListener("scroll", () => {
     const buildEL = document.getElementById("build")
-    console.log(buildEL);
     if (isScrolledIntoView(buildEL)) {
         document.body.style.backgroundColor = "blueviolet"
-    } else {
+    }
+})
+document.addEventListener("scroll", () => {
+    const heroEl = document.getElementById("Hero")
+    if (isScrolledIntoView(heroEl)) {
         document.body.style.backgroundColor = "black"
 
     }
